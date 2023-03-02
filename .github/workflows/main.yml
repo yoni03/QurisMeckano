@@ -1,6 +1,5 @@
 name: Cypress
 on: [push]
-
 jobs:
   cypress-run:
     runs-on: ubuntu-22.04
