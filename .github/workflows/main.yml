@@ -1,6 +1,5 @@
 name: Cypress
-on:
-  schedule: [push]
+on: [push]
 
 jobs:
   cypress-run:
