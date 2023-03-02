@@ -1,0 +1,20 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "automerge": true,
+  "major": {
+    "automerge": false
+  },
+  "labels": [
+    "type: dependencies",
+    "renovate"
+  ],
+  "masterIssue": true,
+  "prConcurrentLimit": 8,
+  "prHourlyLimit": 4,
+  "timezone": "America/New_York",
+  "schedule": [
+    "every weekend"
+  ]
+}
