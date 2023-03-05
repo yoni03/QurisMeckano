@@ -4,6 +4,6 @@ it('Meckano', function() {
   cy.get('#password').type(Cypress.env('PW'));
   cy.wait(500);
   cy.get('#submitButtons > .sl').click();
-  cy.wait(1000);
+  cy.wait(2000);
   cy.get('#checkin-button').click();
 });
